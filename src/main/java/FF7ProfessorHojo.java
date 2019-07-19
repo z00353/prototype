@@ -13,6 +13,6 @@ public class FF7ProfessorHojo {
         productGetter = prototypeCloner.clone();
         return "Hojo is cloning: " + prototypeCloner.getClass()
                 .getSimpleName() + ".\n" +
-        productGetter.getName() +" object created.";
+        productGetter.getName() +" object created  " + "\uD83D\uDE40";
     }
 }
